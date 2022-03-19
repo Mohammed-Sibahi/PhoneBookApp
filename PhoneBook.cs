@@ -8,13 +8,13 @@ namespace PhoneBookConsole
 {
     class PhoneBook
     {
-        private List<Contact> _contacts { get; set; }
+        private List<Contact> _contacts { get; set; } = new List<Contact>();
 
         private void DisplayContactDetails(Contact contact)
         {
             Console.WriteLine($"Contact: {contact.Name}, {contact.Number}");
         }
-        private void DisplayContactDetails(List<Contact> contact)
+        private void DisplayContactDetails(List<Contact> contacts)
         {
             foreach( var contact in contacts)
             {
