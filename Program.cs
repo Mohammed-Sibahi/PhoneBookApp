@@ -17,7 +17,24 @@ namespace PhoneBookApp
             Console.WriteLine("3 View all contacts");
             Console.WriteLine("4 serach for contacts for a given name.")
 
-            var userInput = Console.ReadLine();        
+            var userInput = Console.ReadLine();
+            
+            var phoneBook = new PhoneBookApp();
+
+            switch (userInput)
+            {
+                case "1": 
+                    break;
+                     case "2": 
+                    break;
+                     case "3": 
+                    break;
+                     case "4": 
+                    break;
+                    default: 
+                    Console.WriteLine("Select valid operation");
+                    break;
+            }
         }
     }
 }
