@@ -24,14 +24,22 @@ namespace PhoneBookApp
             switch (userInput)
             {
                 case "1": 
+                    Console.WriteLine("Contact name: ");
+                    var name = Console.ReadLine();
+                    Console.WriteLine("Contact number: ");
+                    var number = Console.ReadLine();
+
+                    var newContact = new Contact(name, number);
+                    phoneBook.AddContact(newContact);
+
                     break;
-                     case "2": 
+                case "2": 
                     break;
-                     case "3": 
+                case "3": 
                     break;
-                     case "4": 
+                case "4": 
                     break;
-                    default: 
+                default: 
                     Console.WriteLine("Select valid operation");
                     break;
             }
