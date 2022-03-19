@@ -38,5 +38,10 @@ namespace PhoneBookConsole
                 DisplayContactDetails(contact);
             }
         }
+
+        public void DisplayMatchingContacts(string searchPhrase)
+        {
+
+        }
     }
 }
