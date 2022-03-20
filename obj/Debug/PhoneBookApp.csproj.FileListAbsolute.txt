@@ -1,3 +1,11 @@
 C:\Users\Z\source\repos\PhoneBookApp\obj\Debug\PhoneBookApp.csproj.AssemblyReference.cache
 C:\Users\Z\source\repos\PhoneBookApp\obj\Debug\PhoneBookApp.csproj.SuggestedBindingRedirects.cache
 C:\Users\Z\source\repos\PhoneBookApp\obj\Debug\PhoneBookApp.csproj.CoreCompileInputs.cache
+C:\CSAIO4D2E\PhoneBookApp\PhoneBookApp\obj\Debug\PhoneBookApp.csproj.AssemblyReference.cache
+C:\CSAIO4D2E\PhoneBookApp\PhoneBookApp\obj\Debug\PhoneBookApp.csproj.SuggestedBindingRedirects.cache
+C:\CSAIO4D2E\PhoneBookApp\PhoneBookApp\obj\Debug\PhoneBookApp.csproj.CoreCompileInputs.cache
+C:\CSAIO4D2E\PhoneBookApp\PhoneBookApp\bin\Debug\PhoneBookApp.exe.config
+C:\CSAIO4D2E\PhoneBookApp\PhoneBookApp\bin\Debug\PhoneBookApp.exe
+C:\CSAIO4D2E\PhoneBookApp\PhoneBookApp\bin\Debug\PhoneBookApp.pdb
+C:\CSAIO4D2E\PhoneBookApp\PhoneBookApp\obj\Debug\PhoneBookApp.exe
+C:\CSAIO4D2E\PhoneBookApp\PhoneBookApp\obj\Debug\PhoneBookApp.pdb
