@@ -48,6 +48,7 @@ namespace PhoneBookConsole
                         phoneBook.DisplayContact(searchNumber);
                         break;
                     case "3":
+                        phoneBook.DisplayAllContact();
                         break;
                     case "4":
                         break;
