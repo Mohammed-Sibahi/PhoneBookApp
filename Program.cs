@@ -16,6 +16,7 @@ namespace PhoneBookConsole
             Console.WriteLine("2 Display contact by number");
             Console.WriteLine("3 View all contacts");
             Console.WriteLine("4 serach for contacts for a given name.");
+            Console.WriteLine(" Press 'x' to exit.");
 
             var userInput = Console.ReadLine();
             
@@ -43,12 +44,15 @@ namespace PhoneBookConsole
                         break;
                     case "4":
                         break;
+                    case "x":
+                        return;
                     default:
                         Console.WriteLine("Select valid operation");
                         break;
-                    case "x":
-                        return;
+                    
                 }
+                Console.WriteLine("Select operation!");
+                userInput = Console.ReadLine();
             }
 
             
