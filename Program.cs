@@ -44,7 +44,8 @@ namespace PhoneBookConsole
                         break;
                     case "2":
                         Console.WriteLine("Contact number to search ");
-                        
+                        var searchNumber = Console.ReadLine();
+                        phoneBook.DisplayContact(searchNumber);
                         break;
                     case "3":
                         break;
