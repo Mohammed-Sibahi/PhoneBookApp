@@ -51,6 +51,8 @@ namespace PhoneBookConsole
                         phoneBook.DisplayAllContact();
                         break;
                     case "4":
+                        Console.WriteLine("Name search phrase!");
+                        var searchPhrase = Console.ReadLine();
                         break;
                     case "x":
                         return;
