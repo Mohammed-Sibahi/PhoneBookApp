@@ -35,10 +35,16 @@ namespace PhoneBookConsole
                         var newContact = new Contact(name, number);
                         phoneBook.AddContact(newContact);
 
+                     //   if (!int.TryParse(userInput, number))
+                       // {
+                         //   Console.WriteLine("Please insert a number");
+                        //}
 
 
                         break;
                     case "2":
+                        Console.WriteLine("Contact number to search ");
+                        
                         break;
                     case "3":
                         break;
