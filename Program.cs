@@ -46,6 +46,8 @@ namespace PhoneBookConsole
                     default:
                         Console.WriteLine("Select valid operation");
                         break;
+                    case "x":
+                        return;
                 }
             }
 
