@@ -47,15 +47,20 @@ namespace PhoneBookConsole
                         var searchNumber = Console.ReadLine();
                         phoneBook.DisplayContact(searchNumber);
                         break;
+
                     case "3":
                         phoneBook.DisplayAllContact();
                         break;
+
                     case "4":
                         Console.WriteLine("Name search phrase!");
                         var searchPhrase = Console.ReadLine();
+                        phoneBook.DisplayMatchingContacts(searchPhrase);
                         break;
+
                     case "x":
                         return;
+
                     default:
                         Console.WriteLine("Select valid operation");
                         break;
