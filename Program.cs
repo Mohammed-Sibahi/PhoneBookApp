@@ -21,28 +21,35 @@ namespace PhoneBookConsole
             
             var phoneBook = new PhoneBook();
 
-            switch (userInput)
+            while (true)
             {
-                case "1": 
-                    Console.WriteLine("Contact name: ");
-                    var name = Console.ReadLine();
-                    Console.WriteLine("Contact number: ");
-                    var number = Console.ReadLine();
+                switch (userInput)
+                {
+                    case "1":
+                        Console.WriteLine("Contact name: ");
+                        var name = Console.ReadLine();
+                        Console.WriteLine("Contact number: ");
+                        var number = Console.ReadLine();
 
-                    var newContact = new Contact(name, number);
-                    phoneBook.AddContact(newContact);
+                        var newContact = new Contact(name, number);
+                        phoneBook.AddContact(newContact);
 
-                    break;
-                case "2": 
-                    break;
-                case "3": 
-                    break;
-                case "4": 
-                    break;
-                default: 
-                    Console.WriteLine("Select valid operation");
-                    break;
+
+
+                        break;
+                    case "2":
+                        break;
+                    case "3":
+                        break;
+                    case "4":
+                        break;
+                    default:
+                        Console.WriteLine("Select valid operation");
+                        break;
+                }
             }
+
+            
         }
     }
 }
